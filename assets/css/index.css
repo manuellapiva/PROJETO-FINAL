@@ -152,4 +152,51 @@ body {
     text-align: center;
 }
 
+/* celular */
+@media (max-width: 768px) {
 
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    font-size: 30px;
+}
+
+#texto {
+    margin: 0 80px 30px 80px;
+}
+
+.pages {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0 80px 40px;
+}
+
+.pages ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pages h2{
+    margin-bottom: 30px;
+}
+
+.pages li {
+    padding: 8px;
+    width: 150px;
+    height: 70px;
+}
+
+#texto1 {
+    margin: 0 80px 30px 80px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+}
