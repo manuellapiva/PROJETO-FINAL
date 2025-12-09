@@ -213,6 +213,7 @@ footer a {
   font-weight: bold;
 }
 
+/* celular */
 @media (max-width: 768px) {
 header {
   align-items: center;
@@ -243,6 +244,44 @@ header input {
 
 header img {
   width: 375px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+    padding: 60px;
+    width: auto;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+header {
+  width: 100%;
+}
+
+.searchbar {
+  display: flex;
+}
+
+header input {
+  width: 100%;
+}
+
+.icons {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
 }
 
 .buttons {
