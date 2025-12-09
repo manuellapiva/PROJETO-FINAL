@@ -153,3 +153,62 @@ footer a {
     padding-top: 15px;
     font-size: 10px;
 }
+
+.buttons li.gelo a {
+    background-color: var(--gelo);
+}
+.buttons li.gelo a:hover {
+    background-color: var(--gelohover);
+}
+.buttons li.grama a {
+    background-color: var(--grama);
+}
+.buttons li.grama a:hover {
+    background-color: var(--gramahover);
+}
+.buttons li.home a:hover {
+    background-color: var(--homehover);
+}
+.buttons li.lutador a {
+    background-color: var(--lutador);
+}
+.buttons li.lutador a:hover {
+    background-color: var(--lutadorhover);
+}
+.buttons li.veneno a {
+    background-color: var(--veneno);
+}
+.buttons li.veneno a:hover {
+    background-color: var(--venenohover);
+}
+
+.buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.buttons ul {
+  gap: 25px;
+  list-style: none;
+  background-color: var(--blueline);
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Estilo dos botões */
+.buttons li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--yellowhdr); 
+  padding: 22px 45px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
