@@ -103,7 +103,7 @@ footer a {
 }
 
 .cntct h1 {
-    border-bottom: 4px solid var(--blueline);
+    border-bottom: 4px solid var(--black);
     padding-bottom: 15px;
     font-size: 35px;
 }
@@ -131,7 +131,7 @@ footer a {
 
 .cats h2,
 .sercli h2 {
-    border-bottom: 4px solid var(--blueline);
+    border-bottom: 4px solid var(--black);
     padding-bottom: 15px;
     font-size: 25px;
 }
@@ -148,7 +148,7 @@ footer a {
 
 .cpry {
     text-align: center;
-    border-top: 4px solid var(--blueline);
+    border-top: 4px solid var(--black);
     margin-top: 20px;
     padding-top: 15px;
     font-size: 10px;

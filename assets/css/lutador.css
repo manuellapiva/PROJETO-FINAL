@@ -58,8 +58,13 @@ body {
   border-radius: 18px;
   text-align: center;
   margin: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .poster {
   width: 150px;
 }
@@ -94,3 +99,17 @@ body {
 .dark{background-color: #181e31;}
 .ground{background-color: #543b0e;}
 .flying{background-color: #e2dee8; color: var(--black);}
+
+header input {
+  background-color: var(--cardlutador);
+}
+
+.searchbar {
+  background-color: var(--cardlutador);
+  color: white;
+}
+
+
+input::placeholder{
+    color:white
+}
