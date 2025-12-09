@@ -1,3 +1,131 @@
+:root {
+    --white: #fff;
+    --body: #fff7da;
+    --searchclr: #A9CAF0;
+    --yellowhdr: #ffd63c;
+    --black: #000000;
+    --white: #ffffff;
+    --redimg: rgba(178, 54, 47, 0.85);
+    --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --homehover: #ddb834;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
+    --cardgrama: #a9f0e2;
+    --backgrama: #3ca663;
+    --backlutador: #2f374d;
+    --cardlutador: #777f87;
+    --backveneno: #3f377d;
+    --cardveneno: #966fc5;
+} 
+
+.firstimgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1img {
+    position: absolute;
+    color: var(--white);
+    background-color: var(--redimg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 50%;
+    padding: 10px;
+}
+
+
+body {
+    background-color: var(--body);
+}
+
+#texto {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid var(--yellowhdr) ;
+    padding-bottom: 25px;
+}
+
+.botoes {
+    display: flex;
+    border-bottom: 5px solid var(--yellowhdr);
+    padding-bottom: 25px;
+}
+.pages {
+    border-bottom: 4px solid var(--yellowhdr);
+    padding-bottom: 40px;
+    text-align: center;
+    font-size:25px;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages li {
+    padding: 10px;
+    width: 280px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages li#gelo {
+    background-color: var(--gelo);
+}
+
+.pages li#grama {
+    background-color: var(--grama);
+}
+
+.pages li#lutador {
+    background-color: var(--lutador);
+}
+
+.pages li#veneno {
+    background-color: var(--veneno);
+}
+
+.pages a {
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.bt12, .bt34 {
+    display: flex;
+    justify-self: space-around;
+    gap: 150px;
+}
+
+.equipe{
+    text-align: center;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards img{
+    width: 200px;
+    border-radius: 10px;
+} 
 header input {
   border: none;
   background-color: #a9caf0;
