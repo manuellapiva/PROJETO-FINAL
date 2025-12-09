@@ -22,4 +22,8 @@
     --backveneno: #3f377d;
     --cardveneno: #966fc5;
 }
+body {
+    background-color: var(--backveneno);
+}
+
 
