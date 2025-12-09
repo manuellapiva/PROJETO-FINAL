@@ -158,12 +158,105 @@ body {
 }
 
 .card {
-  text-align: center;
-  transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* celular */
+@media (max-width: 768px) {
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    font-size: 30px;
+}
+
+#texto {
+    margin: 0 80px 30px 80px;
+}
+
+.pages {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0 80px 40px;
+}
+
+.pages ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pages h2{
+    margin-bottom: 30px;
+}
+
+.pages li {
+    padding: 8px;
+    width: 150px;
+    height: 70px;
+}
+
+#texto1 {
+    margin: 0 80px 30px 80px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+}
+
+/*tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+.firstimgs img {
+    width: 100%;
+}
+
+.h1img {
+    font-size: 35px;
+}
+
+#texto {
+    margin: 0 80px 30px 80px;
+}
+
+.pages {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0 80px 40px;
+}
+
+.pages ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pages h2{
+    margin-bottom: 30px;
+}
+
+#texto1 {
+    margin: 0 80px 30px 80px;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
 }
