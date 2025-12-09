@@ -43,3 +43,14 @@
     width: 50%;
     padding: 10px;
 }
+
+body {
+    background-color: var(--body);
+}
+
+#texto {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid var(--yellowhdr) ;
+    padding-bottom: 25px;
+}
